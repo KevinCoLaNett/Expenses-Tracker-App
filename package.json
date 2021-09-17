@@ -1,0 +1,14 @@
+{
+  "name": "expenses-tracker",
+  "version": "1.0.0",
+  "description": "expenses-tracker-app",
+  "main": "server.js",
+  "scripts": {
+    "server": "npm run watch --prefix server",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"yarn client\""
+  },
+  "keywords": [],
+  "author": "kevsss",
+  "license": "ISC"
+}
